@@ -20,6 +20,8 @@ public class Myconf {
 	}
 
 	public void readConf() throws ConfigurationException {
+		String path = System.getProperty("user.dir");
+		System.out.println(path);
 		PropertiesConfiguration propsConfig = new PropertiesConfiguration();
 		propsConfig.setEncoding("UTF-8");
 		System.out.println("文件名:" + this.filename);
