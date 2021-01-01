@@ -14,6 +14,8 @@ public class Myhello {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		MyLog mylog = new MyLog();
+		mylog.PrintLog();
 	}
 
 }
