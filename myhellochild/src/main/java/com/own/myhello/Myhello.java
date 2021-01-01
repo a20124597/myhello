@@ -16,6 +16,10 @@ public class Myhello {
 		}
 		MyLog mylog = new MyLog();
 		mylog.PrintLog();
+		Mythread mythread=new Mythread();
+		System.out.println("主线程开始时间="+System.currentTimeMillis());
+		mythread.start();
+		System.out.println("主线程结束时间="+System.currentTimeMillis());
 	}
 
 }
